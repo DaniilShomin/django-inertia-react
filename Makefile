@@ -1,6 +1,9 @@
 install:
 	uv sync && cd frontend && uv run npm install
 
+migrate:
+	uc run manage.py migrate
+
 start-backend:
 	uv run manage.py runserver
 

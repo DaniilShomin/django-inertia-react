@@ -15,6 +15,7 @@ Install:
 
 ```
 make install
+make migrate
 ```
 
 Terminal 1:
